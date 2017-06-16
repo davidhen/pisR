@@ -1,0 +1,16 @@
+Package: pisR
+Type: Package
+Title: Useful functions for Prescribing Information System (PIS) data
+Version: 0.1.0
+Author: Richard Papworth
+Maintainer: David Henderson <d.henderson.2@research.gla.ac.uk>
+Description: A suite of functions that may be frequently used when using PIS data in a safe haven environment.    
+    `count_bnf_class()` summarises the number of prescriptions at at a specific level of the BNF.    
+    `ever-used()` Report whether a drug appears between a defines start and end date.    
+    `polypharmacy` constructs an index of polypharmacy. 
+License: tbc probs CC0 or MIT
+Encoding: UTF-8
+LazyData: true
+Imports: tidyverse,
+    stringr
+RoxygenNote: 6.0.1
